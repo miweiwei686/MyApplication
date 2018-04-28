@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Log.i("MainActivity","onclick");
-
+                Log.i("MainActivity","update test");
                 startActivity(new Intent(MainActivity.this,ThreadTestActivity.class));
             }
         });
