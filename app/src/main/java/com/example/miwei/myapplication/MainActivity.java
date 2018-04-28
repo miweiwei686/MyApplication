@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Log.i("MainActivity","onclick");
 
                 startActivity(new Intent(MainActivity.this,ThreadTestActivity.class));
             }
